@@ -1,4 +1,5 @@
-// connect to database postgres
+// ! connect to database postgres
+
 const { Pool } = require('pg');
 
 const pool = new Pool({
